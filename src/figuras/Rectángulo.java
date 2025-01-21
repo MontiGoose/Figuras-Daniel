@@ -1,4 +1,5 @@
 package figuras;
+import java.awt.Color;
 
 public class Rectángulo extends Figura{
 private double base;

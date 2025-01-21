@@ -56,6 +56,7 @@ System.out.println ("2) Rectángulo");
 System.out.println ("3) Cuadrado");
 System.out.println ("4) Salir");
 Scanner teclado = new Scanner (System.in);
+teclado.close();
 do {
     System.out.print ("Introduzca una opción (1-4): ");
     opción = teclado.nextInt();
